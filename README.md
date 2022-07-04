@@ -72,6 +72,37 @@ fun printSubset(collection: List<Int>, subsets: List<List<Int>>) {
 }
 ```
 
+Output:
+
+``` text
+Examples of subsets!
+
+Collection: [1, 2]
+Collection's Subsets: [[], [1], [2], [1, 2]]
+Quantity of subsets: 4
+
+Collection: [1, 3, 2]
+Collection's Subsets: [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
+Quantity of subsets: 8
+
+Collection: [1, 2, 2]
+Collection's Subsets: [[], [1], [2], [1, 2], [2, 2], [1, 2, 2]]
+Quantity of subsets: 6
+
+Collection: [1, 2, 3, 4]
+Collection's Subsets: [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3], [4], [1, 4], [2, 4], [1, 2, 4], [3, 4], [1, 3, 4], [2, 3, 4], [1, 2, 3, 4]]
+Quantity of subsets: 16
+
+Collection: [1, 2, 4, 2]
+Collection's Subsets: [[], [1], [2], [1, 2], [2, 2], [1, 2, 2], [4], [1, 4], [2, 4], [1, 2, 4], [2, 2, 4], [1, 2, 2, 4]]
+Quantity of subsets: 12
+
+```
+
+---
+
+## Testcase
+
 Testcase class ([SubsetTest.kt](https://github.com/guilhermegals/subset-kotlin/blob/main/SubsetChallenge/src/test/kotlin/SubsetTest.kt))
 
 ``` Kotlin
